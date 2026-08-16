@@ -49,13 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 3,
-            title: "Transformacion S.E.R",
+            title: "Olam Salon",
             category: "Landing Pages",
             description: "Landing page corporativa para estudio de arquitectura bioclimática con alta velocidad de carga.",
             fullDescription: "Sitio web enfocado en la conversión para una firma de arquitectura sustentable. Incluye animaciones sutiles al hacer scroll, galería interactiva y formulario integrado.",
-            image: "assests/transformacionser.png",
+            image: "assests/olam.png",
             technologies: ["HTML5", "CSS3", "JavaScript", "React"],
-            url: "https://rosales-couch.vercel.app"
+            url: "https://olam-salon.vercel.app"
         }
     ];
 
