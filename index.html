@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JsCode - Desarrollo web profesional, moderno y orientado a resultados. Creamos sitios web, e-commerce y sistemas a medida.">
+    <meta name="keywords" content="Desarrollo Web, Frontend, Backend, Landing Pages, E-commerce, JsCode">
+    <meta name="author" content="JsCode">
+    <title>JsCode | Desarrollo Web & Soluciones Digitales</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="JsCode | Desarrollo Web & Soluciones Digitales">
+    <meta property="og:description" content="Construimos experiencias digitales modernas, rápidas y eficientes para impulsar tu negocio.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon Placeholder -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <!-- Google Fonts (Geist / Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                JsCode<span class="dot">.</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Inicio</a>
+                <a href="#services" class="nav-link">Servicios</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#about" class="nav-link">Nosotros</a>
+                <a href="#tech" class="nav-link">Tecnologías</a>
+                <a href="#contact" class="nav-link nav-cta">Contacto</a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="hero-glow"></div>
+            <div class="container hero-content">
+                <div class="badge fade-element">
+                    <span class="badge-dot"></span>
+                    DESARROLLO WEB · DISEÑO · TECNOLOGÍA
+                </div>
+                <h1 class="hero-title fade-element">
+                    Construimos experiencias digitales que hacen crecer tu negocio.
+                </h1>
+                <p class="hero-description fade-element">
+                    En <span class="text-highlight">JsCode</span> desarrollamos sitios web modernos, optimizados, responsivos y con un enfoque absoluto en el rendimiento y los resultados.
+                </p>
+                <div class="hero-actions fade-element">
+                    <a href="#projects" class="btn btn-primary">
+                        Ver proyectos
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Contactarme</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">SERVICIOS</span>
+                    <h2 class="section-title">Lo que hacemos</h2>
+                    <p class="section-desc">Soluciones digitales integrales diseñadas con precisión para cada necesidad.</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card fade-element">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Landing Pages</h3>
+                        <p>Páginas de alta conversión, optimizadas para velocidad, SEO y diseñadas para captar clientes desde el primer segundo.</p>
+                    </div>
+
+                    <div class="service-card fade-element">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                        </div>
+                        <h3>E-Commerce</h3>
+                        <p>Tiendas virtuales robustas, seguras y autogestionables con pasarelas de pago integradas y diseño intuitivo.</p>
+                    </div>
+
+                    <div class="service-card fade-element">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+                        </div>
+                        <h3>Sistemas Web</h3>
+                        <p>Plataformas web a medida, paneles de administración, dashboards e integración de bases de datos avanzadas.</p>
+                    </div>
+
+                    <div class="service-card fade-element">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                        </div>
+                        <h3>Diseño y Rediseño Web</h3>
+                        <p>Modernización de sitios existentes con arquitecturas visuales contemporáneas, UI/UX limpia y adaptabilidad total.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section class="projects section-padding" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">PORTAFOLIO</span>
+                    <h2 class="section-title">Proyectos seleccionados</h2>
+                    <p class="section-desc">Explora algunos de los trabajos y plataformas desarrolladas con máxima dedicación.</p>
+                </div>
+
+                <!-- FILTROS -->
+                <div class="projects-filter fade-element" id="projectFilter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="Landing Pages">Landing Pages</button>
+                    <button class="filter-btn" data-filter="E-Commerce">E-Commerce</button>
+                    <button class="filter-btn" data-filter="Sistemas Web">Sistemas Web</button>
+                </div>
+
+                <!-- CONTENEDOR DINÁMICO DE PROYECTOS -->
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Generado dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="about-card fade-element">
+                    <div class="about-header">
+                        <span class="section-subtitle">SOBRE JSCODE</span>
+                        <h2>Ingeniería de software con estética vanguardista</h2>
+                    </div>
+                    <div class="about-body">
+                        <p>
+                            En <strong>JsCode</strong> nos dedicamos a transformar ideas complejas en experiencias web limpias, funcionales y de alto rendimiento. Creemos firmemente que un gran desarrollo no solo debe verse impecable, sino también ejecutar velozmente y adaptarse con fluidez a cualquier dispositivo.
+                        </p>
+                        <p>
+                            Nos enfocamos en comprender las metas reales de cada negocio para construir soluciones personalizadas que aporten valor auténtico, sin dependencias innecesarias y siguiendo los estándares más modernos de la industria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGÍAS -->
+        <section class="tech section-padding" id="tech">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">STACK TECNOLÓGICO</span>
+                    <h2 class="section-title">Tecnologías con las que trabajo</h2>
+                    <p class="section-desc">Herramientas y lenguajes utilizados para crear aplicaciones robustas y escalables.</p>
+                </div>
+
+                <div class="tech-grid">
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">HTML5</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">CSS3</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">TypeScript</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">Angular</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">React</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">Java</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">Spring Boot</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">Node.js</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">MySQL</span>
+                    </div>
+                    <div class="tech-item fade-element">
+                        <span class="tech-name">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="contact-box fade-element">
+                    <span class="section-subtitle">¿TIENES UN PROYECTO EN MENTE?</span>
+                    <h2 class="contact-title">Cuéntame qué necesitas y hagámoslo realidad.</h2>
+                    <p class="contact-desc">
+                        Estoy disponible para nuevos proyectos, asesorías y desarrollo de soluciones a medida.
+                    </p>
+                    
+                    <div class="contact-links">
+                        <!-- Reemplazar los href con tus enlaces reales -->
+                        <a href="https://wa.me/00000000000" target="_blank" rel="noopener noreferrer" class="contact-btn">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            WhatsApp
+                        </a>
+                        <a href="mailto:tu-email@ejemplo.com" class="contact-btn">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            Email
+                        </a>
+                        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="contact-btn">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                            GitHub
+                        </a>
+                        <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="contact-btn">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL DE PROYECTO -->
+    <div class="modal" id="projectModal" aria-hidden="true">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar modal">&times;</button>
+            <div class="modal-header">
+                <span class="modal-category" id="modalCategory">Categoría</span>
+                <h3 class="modal-title" id="modalTitle">Título del Proyecto</h3>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img id="modalImage" src="" alt="Imagen del proyecto">
+                </div>
+                <p id="modalDescription" class="modal-text">Descripción detallada...</p>
+                <div class="modal-tech-list" id="modalTech">
+                    <!-- Etiquetas dinámicas -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a id="modalUrl" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visitar Sitio Web</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#hero" class="brand-logo">JsCode<span class="dot">.</span></a>
+                <p>Desarrollo web profesional, minimalista y orientado a resultados.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h4>Conecta</h4>
+                <div class="social-links">
+                    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://wa.me/00000000000" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 JsCode. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
