@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             title: "TutiMami",
-            category: "Landing Page",
+            category: "Landing Pages",
             description: "Landing Page corporativa de una tienda de ropa, zapatos y accesorios para la familia",
             fullDescription: "Sistema de gestión SaaS diseñado para ingenieros DevOps. Incluye métricas en vivo, integración con APIs RESTful, gestión de alertas y modo oscuro nativo con rendimiento ultra rápido.",
             image: "assests/tutimami.png",
@@ -51,11 +51,41 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 3,
             title: "Olam Salon",
             category: "Landing Pages",
-            description: "Landing page corporativa para estudio de arquitectura bioclimática con alta velocidad de carga.",
+            description: "Landing page salon de belleza con alta velocidad de carga.",
             fullDescription: "Sitio web enfocado en la conversión para una firma de arquitectura sustentable. Incluye animaciones sutiles al hacer scroll, galería interactiva y formulario integrado.",
             image: "assests/olam.png",
             technologies: ["HTML5", "CSS3", "JavaScript", "React"],
             url: "https://olam-salon.vercel.app"
+        },
+        {
+            id: 4,
+            title: "Transformacion S.E.R",
+            category: "Landing Pages",
+            description: "Landing page corporativa para couching de negocios con alta velocidad de carga.",
+            fullDescription: "Sitio web enfocado en la conversión para una firma de arquitectura sustentable. Incluye animaciones sutiles al hacer scroll, galería interactiva y formulario integrado.",
+            image: "assests/transformacionser.png",
+            technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+            url: "https://rosales-couch.vercel.app"
+        },
+        {
+            id: 5,
+            title: "LightHouse",
+            category: "Landing Pages",
+            description: "Landing page corporativa para iglesia cristiana con alta velocidad de carga.",
+            fullDescription: "Sitio web enfocado en la conversión para una firma de arquitectura sustentable. Incluye animaciones sutiles al hacer scroll, galería interactiva y formulario integrado.",
+            image: "assests/lh.png",
+            technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+            url: "https://lighthouse-church-eosin.vercel.app"
+        },
+        {
+            id: 6,
+            title: "CoffeTime",
+            category: "Landing Pages",
+            description: "Landing page corporativa para tienda de café y comida con alta velocidad de carga.",
+            fullDescription: "Sitio web enfocado en la conversión para una firma de arquitectura sustentable. Incluye animaciones sutiles al hacer scroll, galería interactiva y formulario integrado.",
+            image: "assests/CoffeTime.png",
+            technologies: ["HTML5", "CSS3", "JavaScript", "React"],
+            url: "https://glamstore-gt.vercel.app"
         }
     ];
 
